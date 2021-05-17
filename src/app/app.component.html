@@ -1,0 +1,11 @@
+<ng-container *ngIf="loaded$ | async as loaded; else loadingRef">
+  <ul>
+    <app-button *ngFor="let item of loaded.items">{{ item.name }}</app-button>
+  </ul>
+
+  💁 User: <strong>{{ loaded.user.name }}</strong>
+</ng-container>
+
+<ng-template #loadingRef>
+  <app-loader></app-loader>
+</ng-template>

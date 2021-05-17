@@ -1,0 +1,11 @@
+{
+  "products": [
+    { "id": 1, "name": "Stalas" },
+    { "id": 2, "name": "Kedė" },
+    { "id": 3, "name": "Langas" }
+  ],
+  "user": {
+    "name": "Petras",
+    "age": 25
+  }
+}
