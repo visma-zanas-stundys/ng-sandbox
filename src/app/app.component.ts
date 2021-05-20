@@ -24,5 +24,7 @@ export class AppComponent {
     private userService: UserService
   ) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    return '123';
+  }
 }
